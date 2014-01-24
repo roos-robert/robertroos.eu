@@ -67,6 +67,21 @@ nav a
     display: block;
 }
 
+.sectionBox {
+    width: 100%;
+    padding: 0%;
+    float: left;
+}
+
+.articleHouse {
+    background-color: #3c3f41;
+    color: #ffffff;
+    background-image: url(pics/Header.jpg);   
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-top: 0%;
+}
+
 
 /* Formateringar för formulär för handhållna enheter */
 
