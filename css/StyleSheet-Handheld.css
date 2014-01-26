@@ -147,3 +147,7 @@ input[type=checkbox]
 .noshow {
     display: none;
 }
+
+.contactTableText {
+    display: none;
+}
