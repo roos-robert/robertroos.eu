@@ -27,6 +27,7 @@ body
 
 /* Formateringar av DIV-element och HTML5-strukturtaggar */
 
+
 #container {
     width: 100%;
 }
@@ -148,7 +149,9 @@ footer {
     padding: 400px 0px 440px;
 }
 
+
 /* Formatering av sidans huvudmeny */
+
 
 nav ul
 {
@@ -213,6 +216,17 @@ a
 a:hover
 {
     color: #5fa3e2;
+}
+
+.whiteA 
+{
+    color: #ffffff;
+}
+
+.whiteA:hover 
+{
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 
@@ -357,6 +371,29 @@ img.center {
     -moz-transition: opacity 300ms ease-out 0s;
     -o-transition: opacity 300ms ease-out 0s;
     transition: opacity 300ms ease-out 0s;
+}
+
+
+/* Formateringar för tabeller */
+
+
+.contactTable {
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.contactTableIcon {
+    width: 48px;
+    height: 48px;
+}
+
+.contactTableText {
+    vertical-align: top;
+}
+
+.contactTable tr {
+    height: 50px;
 }
 
 
