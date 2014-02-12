@@ -112,6 +112,11 @@ footer {
     color: #353535;
 }
 
+.articleBlack {
+    background-color: #000000;
+    color: #ffffff;
+}
+
 .articleHouse {
     background-color: #3c3f41;
     color: #ffffff;
