@@ -49,6 +49,7 @@ main {
 }
 
 article {
+    padding: 4% 0% 4% 0%;
 }
 
 section {
@@ -105,6 +106,11 @@ footer {
 .articleGray {
     background-color: #3c3f41;
     color: #ffffff;
+}
+
+.articleLightGray {
+    background-color: #e1e1e1;
+    color: #353535;
 }
 
 .articleWhite {
