@@ -49,14 +49,14 @@ main {
 }
 
 article {
-    padding: 4% 0% 4% 0%;
+    padding: 3% 0% 3% 0%;
 }
 
 section {
     max-width: 960px;
     min-height: 100%;    
     margin: 0px auto;
-    padding: 4% 2% 4% 3%;
+    padding: 3% 2% 3% 3%;
 }
 
 aside {
