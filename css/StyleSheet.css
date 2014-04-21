@@ -68,7 +68,7 @@ aside {
 
 .sectionBox {
     width: 45%;
-    padding: 1%;
+    padding: 2%;
     float: left;
 }
 
@@ -253,6 +253,14 @@ h1 {
     text-align: center;
     margin-bottom: -2%;
     padding-top: 2%;
+}
+
+h3 {
+    font-size: 18pt;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1.5%;
+    padding-top: 0%;
 }
 
 header h1 {
