@@ -1,0 +1,457 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+
+/* Övergripande inställningar */
+
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: #ffffff;
+}
+
+body 
+{
+    width: 100%;
+    margin: 0 0 100px;
+    background-color: #eeeeee;
+    font-family: 'Quattrocento', Georgia, Tahoma, Verdana, Arial;
+    font-size: 14pt;
+    line-height: 140%;
+    color: #353535;
+}
+
+
+/* Formateringar av DIV-element och HTML5-strukturtaggar */
+
+
+#container {
+    width: 100%;
+}
+
+header {
+    min-height: 88vh;    
+    background-image: url(pics/Kaffe-stor-bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 400px 0px 440px;
+    margin: 0px auto;
+    padding: 3% 2% 3% 3%;
+    text-align: center;
+}
+
+nav {
+    padding: 0.5% 0% 0% 0%;
+    width: 100%;
+    height: 31px;
+    min-width: 750px;
+    background-color: #3c3f41;
+    opacity: 0.5;
+}
+
+main {
+    margin-bottom: -0px;
+}
+
+article {
+    padding: 3% 0% 3% 0%;
+}
+
+section {
+    max-width: 960px;
+    min-height: 100%;    
+    margin: 0px auto;
+    padding: 3% 2% 3% 3%;
+}
+
+aside {
+    width: 40%;
+    padding: 0% 0% 1% 2%;
+    float: right;
+    text-align: center;
+}
+
+.sectionBox {
+    width: 45%;
+    padding: 2%;
+    float: left;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 99%;
+    padding: 1% 0% 1% 1%;    
+    background-color: #3c3f41;
+    color: #ffffff;
+    font-size: 10pt;
+}
+
+
+/* Klasser tillhörande ovanstående, för modifikationer av bla. färger */
+
+
+.articleRed {
+    background-color: #E03F49;
+    color: #ffffff;
+}
+
+.articleBlue {
+    background-color: #167cc0;
+    color: #ffffff;
+}
+
+.articleDarkBlue {
+    background-color: #116299;
+    color: #ffffff;
+}
+
+.articleGray {
+    background-color: #3c3f41;
+    color: #ffffff;
+}
+
+.articleLightGray {
+    background-color: #e1e1e1;
+    color: #353535;
+}
+
+.articleWhite {
+    background-color: #ffffff;
+    color: #353535;
+}
+
+.articleBlack {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.articleHouse {
+    background-color: #3c3f41;
+    color: #ffffff;
+    background-image: url(pics/Header.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-top: 80px;
+    min-height: 600px;
+}
+
+.articleRoad {
+    background-color: #3c3f41;
+    color: #ffffff;
+    background-image: url(pics/Road-stor-bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    padding: 200px 0px 100px;
+    min-height: 600px;
+}
+
+.articleKaffe {
+    background-color: #3c3f41;
+    color: #ffffff;
+    background-image: url(pics/Kaffe-stor-bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 400px 0px 440px;
+}
+
+
+/* Formatering av sidans huvudmeny */
+
+
+nav ul
+{
+    margin: 0px;
+    list-style: none;
+}
+
+nav li
+{
+    float: left;
+}
+            
+nav a
+{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3c3f41;
+    padding: 9px 20px 8px 20px;
+    margin-left: 0px; 
+}
+
+nav a:hover
+{
+    background-color: #167cc0;
+    color: #ffffff;
+    -webkit-transition: background-color 300ms ease-out 0s;
+    -moz-transition: background-color 300ms ease-out 0s;
+    -o-transition: background-color 300ms ease-out 0s;
+    transition: background-color 300ms ease-out 0s;
+}
+
+nav a:focus
+{
+    background-color: #167cc0;
+    color: #ffffff;
+}
+
+nav .active a
+{
+    background-color: #167cc0;
+    color: #ffffff;
+}
+
+#menuLink {   
+    display: none;
+}
+
+#menuLink2 {   
+    display: none;
+}
+
+
+/* Formatering av länkar */
+
+
+a 
+{
+    color:  #79a7a4;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #5fa3e2;
+}
+
+.whiteA 
+{
+    color: #ffffff;
+}
+
+.whiteA:hover 
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+/* Formatering av text */
+
+
+h1 {
+    font-size: 26pt;
+    line-height: 200%;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: -2%;
+    padding-top: 2%;
+}
+
+h3 {
+    font-size: 18pt;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1.5%;
+    padding-top: 0%;
+}
+
+header h1 {
+    font-size: 74pt;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+header h2 {
+    font-size: 30pt;
+    line-height: 100%;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+em {
+    font-style: italic;
+}
+
+
+/* Formateringar för formulär */
+
+
+#Submit
+{
+    width: 25%;
+}
+    
+input  
+{
+    width: 50.7%;
+    padding: 1%;
+    margin-bottom: 5px;
+}
+
+select
+{
+    width: 53%;
+    padding: 1%;
+    margin-bottom: 5px;
+}
+
+textarea
+{
+    width: 51%;
+    min-height: 100px;
+    padding: 1%;
+}
+    
+fieldset
+{
+    width: 96%;
+    margin-bottom: 1%;
+}
+    
+legend
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+label.leftalign
+{
+    text-align: left;
+    float: left;
+    width: 20%;
+    margin-right: -5%;
+}
+    
+label.leftalignshort
+{
+    text-align: left;
+    float: left;
+    width: 25%;
+    margin-right: -22%;
+}
+
+
+/* Formateringar för bilder */
+
+
+img {
+    max-width: 100%;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picRight {
+    float: right;
+    border: 5px solid;
+    border-color: #ffffff;
+    margin: 10px 0px 10px 20px;
+}
+
+.picLeft {
+    float: left;
+    border: 5px solid;
+    border-color: #ffffff;
+    margin: 10px 20px 10px 0px;
+}
+
+.fadeInImage {
+    opacity: 0.7;
+    -webkit-transition: opacity 300ms ease-out 0s;
+    -moz-transition: opacity 300ms ease-out 0s;
+    -o-transition: opacity 300ms ease-out 0s;
+    transition: opacity 300ms ease-out 0s;
+    margin-right: 2%;
+    border: 5px solid;
+    border-color: #353535;
+}
+
+.fadeInImage:hover {
+    opacity: 1;
+    -webkit-transition: opacity 300ms ease-out 0s;
+    -moz-transition: opacity 300ms ease-out 0s;
+    -o-transition: opacity 300ms ease-out 0s;
+    transition: opacity 300ms ease-out 0s;
+}
+
+
+/* Formateringar för tabeller */
+
+
+.contactTable {
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.contactTableIcon {
+    width: 48px;
+    height: 48px;
+}
+
+.contactTableText {
+    vertical-align: top;
+}
+
+.contactTable tr {
+    height: 50px;
+}
+
+
+/* Övriga formateringar */
+
+
+.clear {
+    clear: both;
+}
+
+.lightDarkBackground {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;   
+    margin: 0px auto;
+}
+
+.darkBackground {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;   
+    margin: 0px auto;
+}
+
+.floatRight {
+    float: right;
+}
+
+.textCenter {
+    text-align: center;
+}

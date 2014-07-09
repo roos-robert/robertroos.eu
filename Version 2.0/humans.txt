@@ -1,0 +1,11 @@
+/* TEAM */
+Designer/programmer: Robert Roos.
+Contact: mail [at] robertroos.se
+Twitter: @RobertRoos_
+From: Borlänge, Sweden.
+
+/* SITE */
+Last update: 2014/01/25.
+Standards: HTML5, CSS3, ECMAScript 5.
+Components: Eric Meyer's Reset CSS 2.0.
+Software: Brackets.
