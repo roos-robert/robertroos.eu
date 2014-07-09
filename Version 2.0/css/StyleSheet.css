@@ -33,26 +33,26 @@ body
 }
 
 header {
-    min-height: 88vh;    
-    background-image: url(pics/Kaffe-stor-bg.jpg);
+    min-height: 100vh;    
+    background-image: url(pics/HEader.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat:no-repeat;
-    padding: 400px 0px 440px;
     margin: 0px auto;
-    padding: 3% 2% 3% 3%;
     text-align: center;
+    color: #ffffff;
 }
 
 nav {
-    padding: 0.5% 0% 0% 0%;
+    padding: 6px 0% 0% 0%;
+    margin-bottom: 10%;
     width: 100%;
-    height: 31px;
+    height: 32px;
     min-width: 750px;
-    background-color: #3c3f41;
-    opacity: 0.5;
+    background: rgba(255, 255, 255, 0.15);
+    text-align: right;
 }
 
 main {
@@ -181,18 +181,19 @@ nav ul
 {
     margin: 0px;
     list-style: none;
+    float: right;
 }
 
 nav li
 {
-    float: left;
+    display: inline;
 }
             
 nav a
 {
     text-decoration: none;
     color: #ffffff;
-    background-color: #3c3f41;
+    background: rgba(255, 255, 255, 0);
     padding: 9px 20px 8px 20px;
     margin-left: 0px; 
 }
@@ -275,8 +276,8 @@ h3 {
 }
 
 header h1 {
-    font-size: 74pt;
-    font-weight: 400;
+    font-size: 144pt;
+    font-weight: 700;
     line-height: 100%;
     text-align: center;
     margin-bottom: 0px;
