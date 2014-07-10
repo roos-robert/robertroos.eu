@@ -1,23 +1,35 @@
 $(".ScrollSec1").click(function() {
     $('html, body').animate({
-        scrollTop: $(".articleBlue").offset().top
-    }, 800);
+        scrollTop: $(".startSection").offset().top
+    }, 1000);
 });
 
 $(".ScrollSec2").click(function() {
     $('html, body').animate({
-        scrollTop: $(".articleWhite").offset().top
-    }, 800);
+        scrollTop: $(".webdevSection").offset().top
+    }, 1000);
 });
 
 $(".ScrollSec3").click(function() {
     $('html, body').animate({
-        scrollTop: $(".articleHouse").offset().top
-    }, 800);
+        scrollTop: $(".refSection").offset().top
+    }, 1000);
+});
+
+$(".ScrollSec4").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".aboutSection").offset().top
+    }, 1000);
+});
+
+$(".ScrollSec5").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".contactSection").offset().top
+    }, 1000);
 });
 
 $("#ScrollToTop").click(function() {
     $('html, body').animate({
         scrollTop: 0
-    }, 800);
+    }, 1000);
 });
