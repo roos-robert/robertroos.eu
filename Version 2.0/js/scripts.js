@@ -33,3 +33,17 @@ $("#ScrollToTop").click(function() {
         scrollTop: 0
     }, 1000);
 });
+
+$("#showDesignDiv").click(function(e) {
+$("#designDiv").toggle( "slow", function(e) {
+    
+});
+    return false;
+});
+
+$("#showPublishDiv").click(function(e) {
+$("#publishDiv").toggle( "slow", function(e) {
+    
+});
+    return false;
+});
