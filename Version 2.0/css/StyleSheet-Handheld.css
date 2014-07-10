@@ -1,7 +1,8 @@
-/* CSS konfigurationer som skall gälla för handhållna enheter, såsom mindre tablets och smartphones */
+/* © 2014 Robert Roos. All rights reserved. */
 
+/* CSS configs for handheld devices such as smaller tablets and smartphones */
+/* Settings for the header and navigational part of the site */
 
-/* Formateringar som skall gälla för menyn för handhållna enheter */
 
 body {
     font-size: 12pt;
@@ -45,7 +46,7 @@ nav a
 }
 
 
-/* Formateringar för formulär för handhållna enheter */
+/* Settings for forms */
 
 
 #Submit
@@ -104,7 +105,8 @@ input[type=checkbox]
 }
 
 
-/* Övriga specialinställningar som skall gälla för handhållna enheter */
+/* Other settings that will apply for handheld devices */
+
 
 .noshow {
     display: none;
@@ -115,8 +117,6 @@ input[type=checkbox]
     border: 1% solid;
     border-color: #ffffff;
 }
-
-
 
 .contactTableText {
     display: none;
@@ -129,6 +129,10 @@ header h1 {
 
 header h2 {
     font-size: 30px;
+}
+
+h1 {
+    font-size: 26pt;
 }
 
 hr {

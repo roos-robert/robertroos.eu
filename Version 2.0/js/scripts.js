@@ -1,3 +1,5 @@
+// Scripts for handling the navigation
+
 $(".ScrollSec1").click(function() {
     $('html, body').animate({
         scrollTop: $(".startSection").offset().top
@@ -33,6 +35,9 @@ $("#ScrollToTop").click(function() {
         scrollTop: 0
     }, 1000);
 });
+
+
+// Scripts for handling toggling of divs
 
 $("#showDesignDiv").click(function(e) {
 $("#designDiv").toggle( "slow", function(e) {

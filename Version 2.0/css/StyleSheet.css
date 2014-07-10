@@ -1,3 +1,5 @@
+/* © 2014 Robert Roos. All rights reserved. */
+
 /** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}
 
@@ -5,7 +7,7 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
 
 
-/* Övergripande inställningar */
+/* Settings for the whole site/document */
 
 html {
     position: relative;
@@ -25,7 +27,7 @@ body
 }
 
 
-/* Formateringar av DIV-element och HTML5-strukturtaggar */
+/* Settings for DIV-elements and HTML5-structure tags */
 
 
 #container {
@@ -102,21 +104,11 @@ footer {
 }
 
 
-/* Klasser tillhörande ovanstående, för modifikationer av bla. färger */
+/* Settings for classes for the DIV elements above, for modifications of colors and backgrounds etc. */
 
-
-.articleRed {
-    background-color: #cb4045;
-    color: #ffffff;
-}
 
 .articleBlue {
     background-color: #167cc0;
-    color: #ffffff;
-}
-
-.articleDarkBlue {
-    background-color: #116299;
     color: #ffffff;
 }
 
@@ -138,19 +130,6 @@ footer {
 .articleBlack {
     background-color: #000000;
     color: #ffffff;
-}
-
-.articleHouse {
-    background-color: #3c3f41;
-    color: #ffffff;
-    background-image: url(pics/Header.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat:no-repeat;
-    padding-top: 80px;
-    min-height: 600px;
 }
 
 .articleComputer {
@@ -179,20 +158,8 @@ footer {
     min-height: 95vh;
 }
 
-.articleCoffee {
-    background-color: #3c3f41;
-    color: #ffffff;
-    background-image: url(pics/Kaffe-stor-bg.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat:no-repeat;
-    height: 100vh;
-}
 
-
-/* Formatering av sidans huvudmeny */
+/* Settings for the main navigation */
 
 
 nav ul
@@ -237,16 +204,8 @@ nav .active a
     color: #ffffff;
 }
 
-#menuLink {   
-    display: none;
-}
 
-#menuLink2 {   
-    display: none;
-}
-
-
-/* Formatering av länkar */
+/* Settings for links */
 
 
 a 
@@ -263,20 +222,21 @@ a:hover
 .whiteA 
 {
     color: #ffffff;
+    text-decoration: underline;
 }
 
 .whiteA:hover 
 {
-    color: #ffffff;
+    color: #000000;
     text-decoration: underline;
 }
 
 
-/* Formatering av text */
+/* Settings for headers and text */
 
 
 h1 {
-    font-size: 26pt;
+    font-size: 34pt;
     line-height: 200%;
     font-weight: 700;
     text-align: center;
@@ -318,6 +278,7 @@ header h1 {
 header h2 {
     font-size: 30pt;
     line-height: 100%;
+    text-align: center;
     text-shadow:
     -1px -1px 0 #777777,
     1px -1px 0 #777777,
@@ -338,7 +299,7 @@ em {
 }
 
 
-/* Formateringar för formulär */
+/* Settings for forms */
 
 
 #Submit
@@ -396,7 +357,7 @@ label.leftalignshort
 }
 
 
-/* Formateringar för bilder */
+/* Settings for images */
 
 
 img {
@@ -413,7 +374,7 @@ img.center {
     float: right;
     border: 5px solid;
     border-color: #ffffff;
-    margin: 10px 0px 10px 20px;
+    margin: 100px 0px 0px 50px;
 }
 
 .picLeft {
@@ -443,30 +404,7 @@ img.center {
 }
 
 
-/* Formateringar för tabeller */
-
-
-.contactTable {
-    width: 85%;
-    margin: 0px auto;
-    margin-top: 50px;
-}
-
-.contactTableIcon {
-    width: 48px;
-    height: 48px;
-}
-
-.contactTableText {
-    vertical-align: top;
-}
-
-.contactTable tr {
-    height: 50px;
-}
-
-
-/* Övriga formateringar */
+/* Other settings */
 
 
 .clear {
