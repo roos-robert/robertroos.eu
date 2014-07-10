@@ -284,6 +284,15 @@ h1 {
     padding-top: 2%;
 }
 
+h2 {
+    font-size: 22pt;
+    line-height: 200%;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1%;
+    padding-top: 2%;
+}
+
 h3 {
     font-size: 18pt;
     font-weight: 700;
