@@ -106,7 +106,7 @@ footer {
 
 
 .articleRed {
-    background-color: #E03F49;
+    background-color: #cb4045;
     color: #ffffff;
 }
 
@@ -153,17 +153,17 @@ footer {
     min-height: 600px;
 }
 
-.articleRoad {
+.articleComputer {
     background-color: #3c3f41;
-    color: #000000;
-    background-image: url(pics/manhattan2.jpg);
+    color: #ffffff;
+    background-image: url(pics/apple.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center;
-    min-height: 95vh;
+    min-height: 110vh;
 }
 
 .articleFarm {
@@ -301,20 +301,20 @@ header h1 {
     margin-bottom: 0px;
     padding-top: 0px;
     text-shadow:
-    -1px -1px 0 #3c3c3c,
-    1px -1px 0 #3c3c3c,
-    -1px 1px 0 #3c3c3c,
-    1px 1px 0 #3c3c3c; 
+    -1px -1px 0 #777777,
+    1px -1px 0 #777777,
+    -1px 1px 0 #777777,
+    1px 1px 0 #777777; 
 }
 
 header h2 {
     font-size: 30pt;
     line-height: 100%;
     text-shadow:
-    -1px -1px 0 #3c3c3c,
-    1px -1px 0 #3c3c3c,
-    -1px 1px 0 #3c3c3c,
-    1px 1px 0 #3c3c3c; 
+    -1px -1px 0 #777777,
+    1px -1px 0 #777777,
+    -1px 1px 0 #777777,
+    1px 1px 0 #777777; 
 }
 
 p {
