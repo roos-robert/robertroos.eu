@@ -1,8 +1,4 @@
-﻿Portfolio for Robert Roos
+robertroos.eu
 =============
 
-This is the code for my personal portfolio / CV. 
-
-## Visit the site
-
-The portfolio can be visited at: http://www.robertroos.eu
+Repositorium för min portfolio och CV.
