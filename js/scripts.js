@@ -52,3 +52,10 @@ $("#publishDiv").toggle( "slow", function(e) {
 });
     return false;
 });
+
+$("#showFuncDiv").click(function(e) {
+$("#funcDiv").toggle( "slow", function(e) {
+    
+});
+    return false;
+});
