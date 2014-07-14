@@ -21,7 +21,7 @@ body
     margin: 0 0 30px;
     background-color: #eeeeee;
     font-family: 'Open Sans', Georgia, Tahoma, Verdana, Arial;
-    font-size: 15pt;
+    font-size: 16pt;
     line-height: 140%;
     color: #3a3a3a;
 }
@@ -67,10 +67,9 @@ article {
 }
 
 section {
-    max-width: 1024px;
-      
+    max-width: 1024px;      
     margin: 0px auto;
-    padding: 3% 1% 3% 1%;
+    padding: 30px 1% 30px 1%;
 }
 
 aside {
@@ -141,7 +140,7 @@ footer {
 .articleComputer {
     background-color: #3c3f41;
     color: #ffffff;
-    background-image: url(pics/apple2.jpg);
+    background-image: url(pics/apple.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -154,14 +153,14 @@ footer {
 .articleFarm {
     background-color: #3c3f41;
     color: #ffffff;
-    background-image: url(pics/agri2.jpg);
+    background-image: url(pics/desk2.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center;
-    min-height: 95vh;
+    min-height: 100vh;
 }
 
 
@@ -286,7 +285,8 @@ header h2 {
     -1px -1px 0 #9b9b9b,
     1px -1px 0 #9b9b9b,
     -1px 1px 0 #9b9b9b,
-    1px 1px 0 #9b9b9b; 
+    1px 1px 0 #9b9b9b;
+    margin-bottom: 250px;
 }
 
 p {

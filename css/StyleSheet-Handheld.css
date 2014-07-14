@@ -134,11 +134,13 @@ input[type=checkbox]
 }
 
 header h1 {
+    padding-top: 100px;
     font-size: 70px;
 }
 
 header h2 {
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 h1 {
