@@ -1,36 +1,42 @@
 // Scripts for handling the navigation
 
-$(".ScrollSec1").click(function() {
+$(".ScrollSec1").click(function(e) {
+    e.preventDefault();
     $('html, body').animate({
         scrollTop: $(".startSection").offset().top
     }, 1000);
 });
 
-$(".ScrollSec2").click(function() {
+$(".ScrollSec2").click(function(e) {
+    e.preventDefault();
     $('html, body').animate({
         scrollTop: $(".webdevSection").offset().top
     }, 1000);
 });
 
-$(".ScrollSec3").click(function() {
+$(".ScrollSec3").click(function(e) {
+    e.preventDefault();
     $('html, body').animate({
         scrollTop: $(".refSection").offset().top
     }, 1000);
 });
 
-$(".ScrollSec4").click(function() {
+$(".ScrollSec4").click(function(e) {
+    e.preventDefault();
     $('html, body').animate({
         scrollTop: $(".aboutSection").offset().top
     }, 1000);
 });
 
-$(".ScrollSec5").click(function() {
+$(".ScrollSec5").click(function(e) {
+    e.preventDefault();
     $('html, body').animate({
         scrollTop: $(".contactSection").offset().top
     }, 1000);
 });
 
-$("#ScrollToTop").click(function() {
+$("#ScrollToTop").click(function(e) {
+    e.preventDefault();
     $('html, body').animate({
         scrollTop: 0
     }, 1000);
