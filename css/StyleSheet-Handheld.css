@@ -11,6 +11,8 @@ body {
 nav {
     min-width: 355px;
     text-align: center;
+    position: relative;
+    background: rgba(000, 000, 000, 0.60);
 }
 
 nav ul
@@ -43,6 +45,15 @@ nav a
     width: 100%;
     padding: 0%;
     float: left;
+}
+
+aside {
+    width: 100%;
+}
+
+.articleFarm {
+    background: none;
+    background-color: #e74c3c;
 }
 
 
@@ -124,7 +135,6 @@ input[type=checkbox]
 
 header h1 {
     font-size: 70px;
-    margin-top: 35%;
 }
 
 header h2 {
@@ -136,5 +146,5 @@ h1 {
 }
 
 hr {
-    margin: 50px 0px 50px 0px;
+    margin: 40px 0px 20px 0px;
 }
