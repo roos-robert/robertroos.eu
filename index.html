@@ -5,7 +5,7 @@
         <meta name="author" content="Robert Roos">
         <meta charset="utf-8">
         <meta name="viewport" content="width:device-width, initial-scale=1.0" />
-        <title>Robert Roos - Frilansande webbprogrammerare</title>
+        <title>Robert Roos - Frilansande Webbprogrammerare</title>
         <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700|' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/StyleSheet.css">
@@ -38,7 +38,7 @@
                 </nav>
                 <h1>Robert Roos</h1>
                 <h2>Frilansande webbprogrammerare</h2>
-                <div><a class="ScrollSec1" href="#"><img src="css/pics/Arrow-down-white.png" width="64"></a></div>
+                <div><a class="ScrollSec1" href="#"><img class="zoomImage" src="css/pics/Arrow-down-white.png" width="64"></a></div>
             </header>                     
             <main>              
                 <div class="articleFarm startSection">                
@@ -52,7 +52,7 @@
                                 <p>Vill du bygga en profil för <strong>synas och lyckas på webben</strong>, eller <strong>söker du en ny medarbetare?</strong></p>
                                 <p><strong>Då har du hittat rätt!</strong></p>
                             </section>
-                            <div class="textCenter"><a class="ScrollSec2" href="#"><img src="css/pics/Arrow-down-white.png" width="64"></a></div>
+                            <div class="textCenter"><a class="ScrollSec2" href="#"><img class="zoomImage" src="css/pics/Arrow-down-white.png" width="64"></a></div>
                     </article>
                 </div>              
                 <div class="articleWhite webdevSection">               
@@ -85,7 +85,7 @@
                                 <p><strong>Vi hörs snart!</strong></p>
                                 <div class="clear"></div>
                             </section>
-                            <div class="textCenter"><a class="ScrollSec3" href="#"><img src="css/pics/Arrow-down.png" width="64"></a></div>
+                            <div class="textCenter"><a class="ScrollSec3" href="#"><img class="zoomImage" src="css/pics/Arrow-down.png" width="64"></a></div>
                     </article>
                 </div>                
                 <div class="articleGrey refSection">                
@@ -144,7 +144,7 @@
                                     <img src="pics/Laptop_Roosweb.png" width="620" alt="Skärmbild på webbplatsen Podnow.se, denna bild visar en del av webbplatsens startsida.">                                   
                                 </p>  
                             </section>                            
-                            <div class="textCenter"><a class="ScrollSec4" href="#"><img src="css/pics/Arrow-down.png" width="64"></a></div>
+                            <div class="textCenter"><a class="ScrollSec4" href="#"><img class="zoomImage" src="css/pics/Arrow-down.png" width="64"></a></div>
                     </article>
                 </div>        
                 <div class="articleBlue aboutSection">
@@ -166,13 +166,14 @@
                                 <p>Utöver detta arbetar jag även med design, främst med hjälp utav <strong>Adobe Photoshop</strong> och <strong>Adobe Illustrator</strong>. 
                                     Är även en flitig användare av <strong>Git</strong> och <a class="whiteA" href="http://www.github.com/rr222cy" target="_blank">Github</a></p>
                             </section>                       
-                            <div class="textCenter"><a class="ScrollSec5" href="#"><img src="css/pics/Arrow-down-white.png" width="64"></a></div>
+                            <div class="textCenter"><a class="ScrollSec5" href="#"><img class="zoomImage" src="css/pics/Arrow-down-white.png" width="64"></a></div>
                     </article>
                 </div>        
                 <div class="articleComputer contactSection">
                     <article>
                         <h1 class="textBorder">Kontakta mig</h1>
                             <section>
+                                <p>&nbsp;</p>
                                 <aside>
                                     <h3>Sociala nätverk</h3>
                                     <p>&nbsp;</p>
@@ -188,6 +189,18 @@
                                     <h3>Epost</h3>
                                     <p><a class="whiteA" href="mailto:robert@roos.ninja">robert@roos.ninja</a></p>
                                 </aside>
+                                <h2>Maila mig</h3>
+                                <form name="ContactForm" action="#" method="post">
+                                    <fieldset>
+                                        <label class="leftalign" for="Subject">Ärende:</label>
+                                            <input type="text" name="Subject" id="Subject" placeholder="Skriv gärna vad ärendet gäller" required><br />
+                                        <label class="leftalign" for="Email">E-post:</label>
+                                            <input type="email" name="Email" id="Email" required placeholder="Ange din e-post så jag kan kontakta dig"><br />
+                                        <label class="leftalign" for="Message">Meddelande:</label> 
+                                            <textarea name="Message" id="Message" disabled>Tills vidare föredrar jag om du kontaktar mig genom något av de sociala nätverk jag listat till höger.</textarea>
+                                    </fieldset>
+                                <input type="submit" name="Submit" id="Submit" value="Skicka meddelandet" disabled>
+                                </form>
                             </section>
                     </article>
                 </div>    
