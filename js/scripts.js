@@ -51,17 +51,3 @@ $("#designDiv").toggle( "slow", function(e) {
 });
     return false;
 });
-
-$("#showPublishDiv").click(function(e) {
-$("#publishDiv").toggle( "slow", function(e) {
-    
-});
-    return false;
-});
-
-$("#showFuncDiv").click(function(e) {
-$("#funcDiv").toggle( "slow", function(e) {
-    
-});
-    return false;
-});

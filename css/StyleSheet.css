@@ -106,6 +106,10 @@ footer {
     font-size: 10pt;
 }
 
+#designDiv {
+    display: none;
+}
+
 
 /* Settings for classes for the DIV elements above, for modifications of colors and backgrounds etc. */
 
