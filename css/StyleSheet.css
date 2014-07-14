@@ -63,7 +63,13 @@ main {
 }
 
 article {
-    min-height: 100vh;  
+    min-height: 100vh;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    article {
+    min-height: 0vh;
+    }
 }
 
 section {
