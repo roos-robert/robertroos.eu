@@ -36,7 +36,7 @@ body
 
 header {
     min-height: 100vh;    
-    background-image: url(pics/forest2.jpg);
+    background-image: url(pics/forest3.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -173,8 +173,7 @@ footer {
 
 nav ul
 {
-    height: 35px;
-    padding-top: 5px;
+    padding-top: 4px;
     margin: 0px;
     list-style: none;    
 }
@@ -189,7 +188,7 @@ nav a
     text-decoration: none;
     color: #ffffff;
     background: rgba(255, 255, 255, 0);
-    padding: 5px 20px 5px 20px;
+    padding: 4px 20px 5px 20px;
 }
 
 nav a:hover
@@ -326,8 +325,8 @@ em {
 input  
 {
     width: 90%;
-    padding: 1%;
-    margin-bottom: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 select
@@ -341,7 +340,8 @@ textarea
 {
     width: 90%;
     min-height: 100px;
-    padding: 1%;
+    padding: 11px;
+    margin-bottom: 15px;
 }
     
 fieldset
