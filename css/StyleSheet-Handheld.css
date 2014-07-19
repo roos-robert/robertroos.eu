@@ -5,11 +5,10 @@
 
 
 body {
-    font-size: 12pt;
+    font-size: 11pt;
 }
 
 nav {
-    min-width: 355px;
     text-align: center;
     position: relative;
     background: rgba(000, 000, 000, 0.60);
@@ -18,7 +17,7 @@ nav {
 nav ul
 {
     margin: 0%;
-    padding: 0%;
+    padding-top: 8px;
     list-style: none;
 }
 
@@ -31,7 +30,7 @@ nav li
             
 nav a
 {
-    font-size: 12pt;
+    font-size: 11pt;
     text-decoration: none;
     color: #ffffff;
     padding-left: 1px;
@@ -139,11 +138,14 @@ header h1 {
 }
 
 header h2 {
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 20px;
 }
 
 h1 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    line-height: 100%;
     font-size: 26pt;
 }
 
