@@ -113,6 +113,23 @@ footer {
     display: none;
 }
 
+#bulbHolder {
+    position: relative; 
+    width: 100%; 
+    overflow: hidden;
+}
+
+.videoArticle {
+    position: absolute; 
+    top: 0; 
+    z-index: 99; 
+    width: 100%;
+}
+
+.videoArticleOverlay {
+    background: rgba(000, 000, 000, 0.30);
+}
+
 
 /* Settings for classes for the DIV elements above, for modifications of colors and backgrounds etc. */
 
