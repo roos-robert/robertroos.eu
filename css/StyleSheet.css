@@ -155,8 +155,9 @@ footer {
 }
 
 .articleFarm {
-    background-color: #3c3f41;
+    background-color: #ffffff;
     color: #ffffff;
+    /*
     background-image: url(pics/desk2.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -164,6 +165,7 @@ footer {
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center;
+    */
     min-height: 100vh;
 }
 
