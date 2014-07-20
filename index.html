@@ -41,13 +41,13 @@
                 <div><a class="ScrollSec1" href="#"><img class="zoomImage" src="css/pics/Arrow-down-white.png" width="64"></a></div>
             </header>                     
             <main>              
-                <div class="articleFarm startSection"> 
-                    <!-- video -->
-                    <video style="width: 100%; height: 100%;" autoplay loop muted>
+                <div class="articleFarm startSection">
+                    <div style="position: relative; width: 100%; overflow: hidden;">
+                    <video style="min-width: 100%; min-height: 100%; overflow: hidden; z-index: -999;" autoplay loop muted>
                         <source src="pics/Sea.mp4" type="video/mp4">
                     </video>
-                    <!-- /.video -->
-                    <article style="">
+
+                    <article style="position: absolute; top: 0; left: 140; z-index: 999;">
                         <h1>Välkommen!</h1>
                             <section>                               
                                 <p>Idag är din webbplats ofta ditt första möte med en en potentiell kund. 
@@ -59,6 +59,7 @@
                             </section>
                             <div class="textCenter"><a class="ScrollSec2" href="#"><img class="zoomImage" src="css/pics/Arrow-down-white.png" width="64"></a></div>
                     </article>
+                    </div>
                 </div>              
                 <div class="articleWhite webdevSection">               
                     <article>
