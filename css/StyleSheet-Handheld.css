@@ -55,6 +55,30 @@ aside {
     background-color: #e74c3c;
 }
 
+#bulbHolder {
+    position: relative; 
+    width: 100%; 
+    overflow: hidden;
+}
+
+.videoArticle {
+    position: absolute; 
+    top: 0; 
+    z-index: 99; 
+    width: 100%;
+}
+
+.videoArticleOverlay {
+    background: rgba(000, 000, 000, 0.00);
+}
+
+@media all and (max-width: 600px) {
+
+#bulbVideo {
+ visibility: hidden;
+}
+
+}
 
 /* Settings for forms */
 
