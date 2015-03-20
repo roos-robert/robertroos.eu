@@ -15,7 +15,7 @@ html {
     background-color: #ffffff;
 }
 
-body 
+body
 {
     width: 100%;
     margin: 0 0 30px;
@@ -35,7 +35,7 @@ body
 }
 
 header {
-    min-height: 100vh;    
+    min-height: 100vh;
     background-image: url(pics/forest3.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -44,7 +44,7 @@ header {
     background-repeat:no-repeat;
     margin: 0px auto;
     text-align: center;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 nav {
@@ -72,7 +72,7 @@ article {
 }
 
 section {
-    max-width: 1024px;      
+    max-width: 1024px;
     margin: 0px auto;
     padding: 30px 1% 30px 1%;
 }
@@ -89,7 +89,7 @@ aside {
     width: 39%;
     float: left;
     font-size: 12pt;
-    padding: 2% 0% 0% 0%;
+    padding: 1% 0% 0% 0%;
 }
 
 .sectionBoxLarge {
@@ -103,7 +103,7 @@ footer {
     bottom: 0;
     height: 40px;
     width: 99%;
-    padding: 10px 0% 0% 1%;    
+    padding: 10px 0% 0% 1%;
     background-color: #000000;
     color: #ffffff;
     font-size: 10pt;
@@ -114,15 +114,15 @@ footer {
 }
 
 #bulbHolder {
-    position: relative; 
-    width: 100%; 
+    position: relative;
+    width: 100%;
     overflow: hidden;
 }
 
 .videoArticle {
-    position: absolute; 
-    top: 0; 
-    z-index: 99; 
+    position: absolute;
+    top: 0;
+    z-index: 99;
     width: 100%;
 }
 
@@ -195,14 +195,14 @@ nav ul
 {
     padding-top: 4px;
     margin: 0px;
-    list-style: none;    
+    list-style: none;
 }
 
 nav li
 {
     display: inline;
 }
-            
+
 nav a
 {
     text-decoration: none;
@@ -237,7 +237,7 @@ nav .active a
 /* Settings for links */
 
 
-a 
+a
 {
     color:  #cb4045;
     text-decoration: none;
@@ -248,13 +248,13 @@ a:hover
     color: #5fa3e2;
 }
 
-.whiteA 
+.whiteA
 {
     color: #ffffff;
     text-decoration: underline;
 }
 
-.whiteA:hover 
+.whiteA:hover
 {
     color: #ffffff;
     text-decoration: underline;
@@ -298,7 +298,7 @@ header h1 {
     -1px -1px 0 #9b9b9b,
     1px -1px 0 #9b9b9b,
     -1px 1px 0 #9b9b9b,
-    1px 1px 0 #9b9b9b; 
+    1px 1px 0 #9b9b9b;
 }
 
 header h2 {
@@ -330,7 +330,7 @@ em {
     -1px -1px 0 #3a3a3a,
     1px -1px 0 #3a3a3a,
     -1px 1px 0 #3a3a3a,
-    1px 1px 0 #3a3a3a; 
+    1px 1px 0 #3a3a3a;
 }
 
 
@@ -341,8 +341,8 @@ em {
 {
     width: 25%;
 }
-    
-input  
+
+input
 {
     width: 90%;
     padding: 10px;
@@ -363,13 +363,13 @@ textarea
     padding: 11px;
     margin-bottom: 15px;
 }
-    
+
 fieldset
 {
     width: 65%;
     margin-bottom: 1%;
 }
-    
+
 legend
 {
     font-weight: bold;
@@ -383,7 +383,7 @@ label.leftalign
     width: 20%;
     margin-right: -5%;
 }
-    
+
 label.leftalignshort
 {
     text-align: left;
@@ -478,13 +478,13 @@ img.center {
 
 .lightDarkBackground {
     background-color: rgba(0, 0, 0, 0.2);
-    width: 100%;   
+    width: 100%;
     margin: 0px auto;
 }
 
 .darkBackground {
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;   
+    width: 100%;
     margin: 0px auto;
 }
 
@@ -497,12 +497,12 @@ img.center {
 }
 
 hr {
-    border: 0; 
-    height: 1px; 
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.10), rgba(0,0,0,0)); 
-    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.10), rgba(0,0,0,0)); 
-    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.10), rgba(0,0,0,0)); 
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.10), rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.10), rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.10), rgba(0,0,0,0));
     background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.10), rgba(0,0,0,0));
-    margin-bottom: 100px; 
+    margin-bottom: 100px;
     margin-top: 100px;
 }
